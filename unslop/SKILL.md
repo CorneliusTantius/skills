@@ -7,12 +7,14 @@ description: Cut AI tells from any writing. Use when asked to de-slop, humanize,
 
 Edit text to remove AI patterns. Scan for the patterns below, then rewrite. Preserve meaning and match the intended tone. Change only what a rule names.
 
-Rule numbers are ids. Gaps are rules removed on purpose; do not renumber.
-
 ## Rules
 
+1. Cut puffery such as "pivotal moment", "testament to", and "evolving landscape". State what happened.
+2. Don't name-drop media outlets without context. Pick one and say what it reported.
 3. No trailing "-ing" phrases that add no fact ("highlighting...", "ensuring...").
+4. Cut promotional language such as "breathtaking", "groundbreaking", and "must-visit". Use neutral descriptions.
 5. No vague attributions ("experts believe"). Name the source or delete.
+6. Replace formulaic challenges such as "Despite challenges... continues to thrive" with specific facts.
 7. No AI vocabulary: additionally, crucial, delve, enhance, foster, landscape, pivotal, showcase, testament, underscore, vibrant.
 8. Say "is" or "has", not "serves as", "stands as", "boasts", "features".
 9. No "not just X, but Y". State the point.
@@ -27,6 +29,7 @@ Rule numbers are ids. Gaps are rules removed on purpose; do not renumber.
 18. No decorative emojis.
 19. Straight quotes.
 20. No chatbot phrases ("I hope this helps!", "Let me know if...").
+21. Remove cutoff disclaimers such as "While specific details are limited...". Find sources or remove the claim.
 22. No praise or agreement openers. Respond directly.
 23. Cut filler. "In order to" becomes "to". Delete "it is important to note that".
 24. One hedge at most: "may".
