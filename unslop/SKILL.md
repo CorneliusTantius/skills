@@ -21,8 +21,8 @@ Edit text to remove AI patterns. Scan for the patterns below, then rewrite. Pres
 10. Don't force ideas into threes.
 11. One name per thing. Repeat it.
 12. No "from X to Y" unless X and Y sit on a real scale.
-13. No em dashes, en dashes, or hyphens used as dashes, and no parentheses in their place. Use a period or a comma.
-14. A colon goes before a list or an example, never mid-sentence as a connector.
+13. Prefer periods and commas over em dashes, en dashes, or parentheses. Use those marks when they make the sentence clearer, not as a substitute for clear structure.
+14. Use a colon before a list or example. Avoid using one as a vague mid-sentence connector.
 15. Don't bold every proper noun or acronym.
 16. No bold label and colon that restates its line ("**Performance:** Performance improved..."). A bold lead-in that ends in a period and adds new detail is fine.
 17. Sentence case headings.
@@ -32,7 +32,7 @@ Edit text to remove AI patterns. Scan for the patterns below, then rewrite. Pres
 21. Remove cutoff disclaimers such as "While specific details are limited...". Find sources or remove the claim.
 22. No praise or agreement openers. Respond directly.
 23. Cut filler. "In order to" becomes "to". Delete "it is important to note that".
-24. One hedge at most: "may".
+24. Use hedges when uncertainty is real. Avoid stacking them.
 25. No generic conclusions. State specific plans or facts.
 26. No abstract metaphor nouns: substrate, wedge, vector, nexus, primitive, harness, surface, scaffolding, paradigm, ratchet, north star, flywheel. Use the concrete word.
 27. Say what it does, not how it feels. Name the mechanism or the number. Cut a sentence that could appear unchanged in another project's docs.
@@ -45,4 +45,4 @@ Edit text to remove AI patterns. Scan for the patterns below, then rewrite. Pres
 
 ## Output
 
-Return the rewritten text. Then list each rule number you applied and the phrase you changed, one line each, so the user can check the edit. Skip the list if nothing applied.
+Return the rewritten text. Add notes about applied rules only if the user asks for an explanation or audit.
