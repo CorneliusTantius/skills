@@ -7,7 +7,7 @@ description: Cut AI tells from any writing. Use when asked to de-slop, humanize,
 
 Edit text to remove AI patterns. Scan for the patterns below, then rewrite. Preserve meaning and match the intended tone. Change only what a rule names.
 
-Rule numbers are stable ids that other skills cite. Gaps are rules removed on purpose; do not fill them or renumber.
+Rule numbers are ids. Gaps are rules removed on purpose; do not renumber.
 
 ## Rules
 
